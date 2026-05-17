@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>beatsbylijo | Catalog</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Teko:wght@400;500;600;700&family=Manrope:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="theme-dark catalog-page">
+  <header class="site-header glass">
+    <div class="logo-block"><p class="logo-mark">BXL</p><h1>beatsbylijo</h1></div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="catalog.html" class="active">Catalog</a>
+      <a href="checkout.html">Cart & Checkout</a>
+    </nav>
+  </header>
+
+  <main class="page-layout">
+    <section class="filters glass">
+      <input type="search" placeholder="Search beats..." />
+      <div class="filter-row">
+        <select><option>Genre</option><option>Trap</option><option>West Coast</option></select>
+        <select><option>BPM</option><option>80-100</option><option>101-130</option><option>131-160</option></select>
+        <select><option>Mood</option><option>Dark</option><option>Melodic</option><option>Hype</option></select>
+      </div>
+    </section>
+
+    <section class="catalog-grid">
+      <article class="catalog-card glass"><div class="wave"></div><h4>Crimson Drift</h4><p>140 BPM • Dark Trap</p><div class="card-footer"><button>▶</button><span>$75</span><button>Add</button></div></article>
+      <article class="catalog-card glass"><div class="wave"></div><h4>Pacific Switch</h4><p>98 BPM • West Coast</p><div class="card-footer"><button>▶</button><span>$65</span><button>Add</button></div></article>
+      <article class="catalog-card glass"><div class="wave"></div><h4>Street Halo</h4><p>126 BPM • Hybrid</p><div class="card-footer"><button>▶</button><span>$85</span><button>Add</button></div></article>
+      <article class="catalog-card glass"><div class="wave"></div><h4>Night Dealership</h4><p>152 BPM • Trap</p><div class="card-footer"><button>▶</button><span>$95</span><button>Add</button></div></article>
+    </section>
+  </main>
+</body>
+</html>
